@@ -1,0 +1,95 @@
+@media only screen and (min-width: 1800px) {
+
+	#burger-nav {
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 1800px) {
+
+	#burger-nav {
+		display: none;
+	}
+
+	nav {
+		font: normal 0.9em "Futura";
+	}
+
+	#logo1 , #logo2 img {
+		transform: scale(0.9);
+	}
+
+	#logo2 {
+		margin-left: -10px;
+	}
+}
+
+@media only screen and (max-width: 1657px) {
+
+	nav {
+		font: normal 0.8em "Futura";
+	}
+
+	#logo1 , #logo2 img {
+		transform: scale(0.8);
+	}
+
+	#logo2 {
+		margin-left: -20px;
+	}
+}
+
+@media only screen and (max-width: 1504px) {
+
+	nav {
+		font: normal 0.7em "Futura";
+		margin-top: 5px;
+	}
+
+	#logo1 , #logo2 img {
+		transform: scale(0.6);
+	}
+
+	#logo2 {
+		margin-left: -50px;
+	}
+}
+
+@media only screen and (max-width: 1355px) {
+
+	nav {
+		font: normal 0.5em "Futura";
+	}
+
+	#burger-nav {
+		display: initial;
+		margin-right: 65%;
+	}
+
+	#full-nav {
+		display: none;
+	}
+
+
+	#logo1 {
+		
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+
+	#logo2 {
+		display: none;
+	}
+
+	#burger-nav {
+		padding-left: 170%
+	}
+
+}
+
+
+
+
