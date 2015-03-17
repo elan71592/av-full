@@ -112,7 +112,15 @@ header {
 
 
 .box-gradient {
-	background: rgb(51,33,37);
+	background: #180e0f; /* Old browsers */
+background: -moz-linear-gradient(top,  #180e0f 0%, #180e0f 3%, #190b0f 4%, #150e0f 5%, #170a0d 9%, #130c0d 11%, #150a0b 12%, #120b09 20%, #13080c 21%, #120b0b 21%, #150a0b 23%, #120b0b 24%, #140a0d 25%, #160c0d 32%, #180e0f 33%, #150e0f 34%, #190b0f 36%, #180e0f 36%, #1a0d11 38%, #170e11 40%, #1c0f10 43%, #190f12 44%, #1e1012 48%, #1c1214 51%, #231317 60%, #231718 65%, #26161a 66%, #29171d 73%, #29191b 74%, #2d1e20 85%, #301c20 85%, #342325 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#180e0f), color-stop(3%,#180e0f), color-stop(4%,#190b0f), color-stop(5%,#150e0f), color-stop(9%,#170a0d), color-stop(11%,#130c0d), color-stop(12%,#150a0b), color-stop(20%,#120b09), color-stop(21%,#13080c), color-stop(21%,#120b0b), color-stop(23%,#150a0b), color-stop(24%,#120b0b), color-stop(25%,#140a0d), color-stop(32%,#160c0d), color-stop(33%,#180e0f), color-stop(34%,#150e0f), color-stop(36%,#190b0f), color-stop(36%,#180e0f), color-stop(38%,#1a0d11), color-stop(40%,#170e11), color-stop(43%,#1c0f10), color-stop(44%,#190f12), color-stop(48%,#1e1012), color-stop(51%,#1c1214), color-stop(60%,#231317), color-stop(65%,#231718), color-stop(66%,#26161a), color-stop(73%,#29171d), color-stop(74%,#29191b), color-stop(85%,#2d1e20), color-stop(85%,#301c20), color-stop(100%,#342325)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #180e0f 0%,#180e0f 3%,#190b0f 4%,#150e0f 5%,#170a0d 9%,#130c0d 11%,#150a0b 12%,#120b09 20%,#13080c 21%,#120b0b 21%,#150a0b 23%,#120b0b 24%,#140a0d 25%,#160c0d 32%,#180e0f 33%,#150e0f 34%,#190b0f 36%,#180e0f 36%,#1a0d11 38%,#170e11 40%,#1c0f10 43%,#190f12 44%,#1e1012 48%,#1c1214 51%,#231317 60%,#231718 65%,#26161a 66%,#29171d 73%,#29191b 74%,#2d1e20 85%,#301c20 85%,#342325 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #180e0f 0%,#180e0f 3%,#190b0f 4%,#150e0f 5%,#170a0d 9%,#130c0d 11%,#150a0b 12%,#120b09 20%,#13080c 21%,#120b0b 21%,#150a0b 23%,#120b0b 24%,#140a0d 25%,#160c0d 32%,#180e0f 33%,#150e0f 34%,#190b0f 36%,#180e0f 36%,#1a0d11 38%,#170e11 40%,#1c0f10 43%,#190f12 44%,#1e1012 48%,#1c1214 51%,#231317 60%,#231718 65%,#26161a 66%,#29171d 73%,#29191b 74%,#2d1e20 85%,#301c20 85%,#342325 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #180e0f 0%,#180e0f 3%,#190b0f 4%,#150e0f 5%,#170a0d 9%,#130c0d 11%,#150a0b 12%,#120b09 20%,#13080c 21%,#120b0b 21%,#150a0b 23%,#120b0b 24%,#140a0d 25%,#160c0d 32%,#180e0f 33%,#150e0f 34%,#190b0f 36%,#180e0f 36%,#1a0d11 38%,#170e11 40%,#1c0f10 43%,#190f12 44%,#1e1012 48%,#1c1214 51%,#231317 60%,#231718 65%,#26161a 66%,#29171d 73%,#29191b 74%,#2d1e20 85%,#301c20 85%,#342325 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #180e0f 0%,#180e0f 3%,#190b0f 4%,#150e0f 5%,#170a0d 9%,#130c0d 11%,#150a0b 12%,#120b09 20%,#13080c 21%,#120b0b 21%,#150a0b 23%,#120b0b 24%,#140a0d 25%,#160c0d 32%,#180e0f 33%,#150e0f 34%,#190b0f 36%,#180e0f 36%,#1a0d11 38%,#170e11 40%,#1c0f10 43%,#190f12 44%,#1e1012 48%,#1c1214 51%,#231317 60%,#231718 65%,#26161a 66%,#29171d 73%,#29191b 74%,#2d1e20 85%,#301c20 85%,#342325 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#180e0f', endColorstr='#342325',GradientType=0 ); /* IE6-9 */
+
 	box-shadow: 0px 0px 20px 10px #000;
 }
 
